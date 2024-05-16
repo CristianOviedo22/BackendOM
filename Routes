@@ -1,0 +1,61 @@
+RUTA ORDEN DE ESPECIALISTAS
+GET http://127.0.0.1:5000/ordenesespecialistas/consultar 
+Este Get consta de una condición en la que el paciente solo puede consultar la orden de especialista asociada a su número de documento.
+Cancelación de órdenes de especialistas:
+DELETE http://127.0.0.1:5000/ordenesespecialistas/:idPaciente/:numOrden
+Para cancelar la orden se puede dar tanto por el idPaciente como por el numOrden.
+Listar todas las Órdenes de Especialistas:
+GET http://127.0.0.1:5000/ordenesespecialistas/
+Guardar nueva orden de especialista:
+POST http://127.0.0.1:5000/ordenesespecialistas/
+Actualizar orden de especialista:
+PATCH http://127.0.0.1:5000/ordenesespecialistas/:id
+Eliminar orden de especialista:
+DELETE http://127.0.0.1:5000/ordenesespecialistas/:id
+RUTA ORDEN DE MEDICAMENTOS 
+
+GET  http://127.0.0.1:5000/ordenmedicamentos/consultar
+Este Get consta de una condición en la que el paciente solo puede consultar la orden de Medicamentos asociada a su número de documento.
+Cancelación de órdenes de medicamentos:
+DELETE http://127.0.0.1:5000/ordenmedicamentos/:idPaciente/:numOrden
+Listar todas las órdenes de medicamentos:
+ GET http://127.0.0.1:5000/ordenmedicamentos/
+Guardar nueva orden de medicamento:
+POST http://127.0.0.1:5000/ordenmedicamentos/
+Actualizar orden de medicamento:
+PATCH http://127.0.0.1:5000/ordenmedicamentos/:id
+Eliminar orden de medicamento
+DELETE http://127.0.0.1:5000/ordenmedicamentos/:id
+
+
+RUTA ORDEN DE INCAPACIDAD
+Consulta de órdenes de incapacidades:
+GET http://127.0.0.1:5000/OrdenIncapacidades/consultar
+Este Get consta de una condición en la que el paciente solo puede consultar la orden de Incapacidad asociada a su número de documento.
+Cancelación de órdenes de incapacidades:
+DELETE http://127.0.0.1:5000/OrdenIncapacidades/:idPaciente/:numOrden
+Para cancelar la orden se puede dar tanto por el idPaciente como por el numOrden.
+Listar todas las órdenes de incapacidades:
+GET http://127.0.0.1:5000/OrdenIncapacidades/
+Guardar nueva orden de incapacidad:
+POST http://127.0.0.1:5000/OrdenIncapacidades/
+Actualizar orden de incapacidad:
+PATCH http://127.0.0.1:5000/OrdenIncapacidades/:id
+Eliminar orden de incapacidad:
+DELETE http://127.0.0.1:5000/OrdenIncapacidades/:id
+
+RUTA ORDEN DE EXAMENES
+Consulta de órdenes de incapacidades:
+GET http://127.0.0.1:5000/OrdenExamenes/consultar
+Este Get consta de una condición en la que el paciente solo puede consultar la orden de Incapacidad asociada a su número de documento.
+Cancelación de órdenes de incapacidades:
+DELETE http://127.0.0.1:5000/OrdenExamenes/:idPaciente/:numOrden
+Para cancelar la orden se puede dar tanto por el idPaciente como por el numOrden.
+Listar todas las órdenes de incapacidades:
+GET http://127.0.0.1:5000/OrdenExamenes/
+Guardar nueva orden de incapacidad:
+POST http://127.0.0.1:5000/OrdenExamenes/
+Actualizar orden de incapacidad:
+PATCH http://127.0.0.1:5000/OrdenExamenes/:id
+Eliminar orden de incapacidad:
+DELETE http://127.0.0.1:5000/OrdenExamenes/:id
